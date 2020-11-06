@@ -43,7 +43,7 @@ public class Bank implements Serializable
 
     @Override
     public String toString() {
-        return "Bank{" +
+        return "Bank{" + '\n' +
                 "CITY='" + cITY + '\n' +
                 ", DISTRICT='" + dISTRICT + '\n' +
                 ", BRANCH='" + bRANCH + '\n' +

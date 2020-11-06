@@ -3,11 +3,24 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="396.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane opacity="0.93" prefHeight="396.0" prefWidth="306.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <Button layoutX="49.0" layoutY="248.0" mnemonicParsing="false" onAction="#btn1Control" text="Получить данные" />
-      <Button layoutX="188.0" layoutY="248.0" mnemonicParsing="false" onAction="#btn2Control" text="Сохранение данніх" />
-      <Button layoutX="357.0" layoutY="248.0" mnemonicParsing="false" text="Button" />
-      <TextField fx:id="txtData" layoutX="20.0" layoutY="65.0" prefHeight="155.0" prefWidth="614.0" />
+      <Button layoutX="19.0" layoutY="350.0" mnemonicParsing="false" onAction="#btn1Control" text="Получить данные" />
+      <TextField fx:id="txtDt" alignment="TOP_LEFT" layoutX="19.0" layoutY="20.0" prefHeight="26.0" prefWidth="114.0" />
+      <TextField fx:id="txtDt1" alignment="TOP_LEFT" layoutX="19.0" layoutY="60.0" prefHeight="26.0" prefWidth="114.0" />
+      <TextField fx:id="txtDt2" alignment="TOP_LEFT" layoutX="19.0" layoutY="100.0" prefHeight="26.0" prefWidth="114.0" />
+      <TextField fx:id="txtDt3" alignment="TOP_LEFT" layoutX="19.0" layoutY="140.0" prefHeight="26.0" prefWidth="114.0" />
+      <TextField fx:id="txtDt4" alignment="TOP_LEFT" layoutX="19.0" layoutY="180.0" prefHeight="26.0" prefWidth="114.0" />
+      <TextField fx:id="txtDt5" alignment="TOP_LEFT" layoutX="19.0" layoutY="220.0" prefHeight="26.0" prefWidth="114.0" />
+      <TextField fx:id="txtDt6" alignment="TOP_LEFT" layoutX="19.0" layoutY="260.0" prefHeight="26.0" prefWidth="114.0" />
+      <TextField fx:id="txtDt7" alignment="TOP_LEFT" layoutX="19.0" layoutY="300.0" prefHeight="26.0" prefWidth="114.0" />
+      <TextField fx:id="txtDt8" alignment="TOP_LEFT" layoutX="170.0" layoutY="20.0" prefHeight="26.0" prefWidth="114.0" />
+      <TextField fx:id="txtDt9" alignment="TOP_LEFT" layoutX="170.0" layoutY="60.0" prefHeight="26.0" prefWidth="114.0" />
+      <TextField fx:id="txtDt10" alignment="TOP_LEFT" layoutX="170.0" layoutY="100.0" prefHeight="26.0" prefWidth="114.0" />
+      <TextField fx:id="txtDt11" alignment="TOP_LEFT" layoutX="170.0" layoutY="140.0" prefHeight="26.0" prefWidth="114.0" />
+      <TextField fx:id="txtDt12" alignment="TOP_LEFT" layoutX="170.0" layoutY="180.0" prefHeight="26.0" prefWidth="114.0" />
+      <TextField fx:id="txtDt13" alignment="TOP_LEFT" layoutX="170.0" layoutY="220.0" prefHeight="26.0" prefWidth="114.0" />
+      <TextField fx:id="txtDt14" alignment="TOP_LEFT" layoutX="170.0" layoutY="260.0" prefHeight="26.0" prefWidth="114.0" />
+
    </children>
 </AnchorPane>
